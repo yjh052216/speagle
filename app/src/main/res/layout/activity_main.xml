@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_main_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/button_main_search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:text="접속"
+        ></Button>
+
+    <TextView
+        android:id="@+id/text_main_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="로그아웃"
+        />
+
+
+</LinearLayout>
